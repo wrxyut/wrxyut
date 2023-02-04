@@ -1,16 +1,21 @@
-### Hi there 👋
 
-<!--
-**wrxyut/wrxyut** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+```javascript
+class Curelight {
+  constructor() {
+    this.username = "wrxyut";
+    this.language = "English";
+    this.coding_languages = "Python";
+    this.location = "Thailand";
+    this.age = "1x";
+  }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  about() {
+    console.log(`Hi, I'm ${this.username}. I'm just a high school student from ${this.location}.`);
+  }
+}
+
+const me = new Curelight();
+me.about();
+```
+

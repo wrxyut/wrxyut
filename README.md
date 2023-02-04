@@ -5,7 +5,8 @@ class Curelight {
   constructor() {
     this.username = "wrxyut";
     this.language = "English";
-    this.coding_languages = "Python";
+    this.coding_languages1 = "Python";
+    this.coding_languages2 = "JavaScript";
     this.location = "Thailand";
     this.age = "1x";
   }
